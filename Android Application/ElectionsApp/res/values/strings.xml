@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ElectionsAppActivity!</string>
+    <string name="app_name">Elections Commission Pakistan</string>
+    
+  
+	<string name="foreground_service_started">Uploading File...</string>
+	<string name="foreground_service_complete_success">File Was Successfully Uploaded</string>
+	<string name="foreground_service_complete_failure">Could Not Upload. Please Retry Uploading File
+	</string>
+	<string name="foreground_service_label">Android Virtual Environment</string>
+	<string name="foreground_service_static_message">A Request To Upload File Is Placed</string>
+	
+	<string name="text_label_name">Name</string>
+    <string name="text_label_username">User</string>
+    <string name="text_label_password">Password</string>
+    <string name="text_label_confirm_password">Confirm Password</string>
+    <string name="text_label_file_keyword1">KeyWord</string>
+    <string name="text_label_file_keyword2">KeyWord</string>
+    <string name="text_label_file_keyword3">KeyWord</string>
+    <string name="text_label_file_keyword4">KeyWord</string>
+    <string name="text_label_file_keyword5">KeyWord</string>
+    <string name="text_button_create">Create</string>
+    <string name="text_label_area_code">Area Code</string>
+    <string name="text_label_family_num">Family Code</string>
+    <string name="text_label_nic">NIC</string>
+    <string name="dialog_title">Information</string>
+    <string name="ok">OK</string>
+    <string name="sms_warning">
+     Instructions: Send "username password" to 5555 and follow instructions to cast vote
+    </string>
+    <string name="sms_enable_receiver">Enable SMS broadcast receiver</string>
+    <string name="sms_recipient_label">Recipient #</string>
+    <string name="sms_content_label">Message Body</string>
+    <string name="sms_send_message">Send</string>
+    <string name="sms_speak_string_format">Message from "%1$s": %2$s</string>
+    <string name="reply">Reply</string>
+    <string name="dismiss">Dismiss</string>
+    
+    <string name="notify_sms">Election Commision</string>
+    <string name="button_language">Select Language</string>
+    <string name="button_sms">SMS System</string>
+    <string name="button_online">Online System</string>
+</resources>

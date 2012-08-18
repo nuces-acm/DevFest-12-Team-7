@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" android:id="@+id/askuser_linear_layout" android:background="@drawable/election_logo">
+	<LinearLayout android:orientation="vertical"
+		android:layout_height="wrap_content" android:paddingRight="10dip"
+		android:layout_width="fill_parent" android:gravity="center_vertical|center_horizontal"
+		android:paddingTop="100dip" >
+   
+		<LinearLayout android:orientation="horizontal"
+			android:layout_height="wrap_content" android:baselineAligned="false"
+			android:paddingTop="10dip" android:layout_width="fill_parent">
+			<TextView android:id="@+id/widget29" android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:text="Username:"
+				android:textColor="#00cccc" android:layout_x="80px"
+				android:layout_y="132px" android:layout_marginTop="5dip"
+				android:layout_weight="0.36" android:paddingLeft="10dip">
+			</TextView>
+			<EditText android:inputType="text" android:layout_width="30dip"
+				android:textSize="15sp" android:layout_height="60px" android:id="@+id/phoneField"
+				android:maxLength="17" android:layout_weight="1.10"></EditText>
+		</LinearLayout>
+
+		<LinearLayout android:layout_width="fill_parent"
+			android:orientation="horizontal" android:layout_height="wrap_content"
+			android:baselineAligned="false" android:paddingTop="10dip">
+			<TextView android:id="@+id/widget29" android:layout_height="wrap_content"
+				android:text="Password:" android:textColor="#00cccc"
+				android:layout_x="80px" android:layout_y="132px"
+				android:layout_marginTop="5dip" android:layout_width="wrap_content"
+				android:paddingLeft="10dip" android:layout_weight="0.40">
+			</TextView>
+			<EditText android:inputType="text" android:layout_width="30dip"
+				android:textSize="15sp" android:layout_height="60px" android:id="@+id/nameField"
+				android:maxLength="17" android:layout_weight="1.10" android:password="true">
+			</EditText>
+		</LinearLayout>
+		<LinearLayout android:layout_height="wrap_content"
+			android:paddingTop="30dip" android:layout_width="fill_parent"
+			android:baselineAligned="false" android:weightSum="1"
+			android:orientation="vertical">
+			<Button android:layout_width="180dp" android:text="Login"
+				android:textColor="#663333" android:layout_height="wrap_content"
+				android:layout_gravity="right" android:layout_marginBottom="3dip"
+				android:id="@+id/btnDone"></Button>
+
+			<Button android:text="Register" android:textColor="#663333"
+				android:id="@+id/btnRegister" android:layout_width="180dp"
+				android:layout_marginBottom="3dip" android:layout_height="wrap_content"
+				android:layout_gravity="right"></Button>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+
+</LinearLayout>
+
